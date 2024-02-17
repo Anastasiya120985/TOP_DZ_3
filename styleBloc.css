@@ -1,0 +1,51 @@
+*{
+    color: white;
+    text-transform: uppercase;
+}
+body>div{
+    margin: 1em;
+} 
+header {
+    background: #923258;
+    padding: 2em 6em;
+    margin: 1em;
+}
+.Menu, footer {
+    background: #6d1337;
+    padding: 1em 6em;
+    margin: 1em;
+}
+.aside-left{
+    margin-right: 1em;
+}
+.aside1 {
+    background: #b65b80;
+    padding: 2em 12em 2em 6em;
+    margin-bottom: 1em;
+}
+.aside2 {
+    background: #b65b80;
+    padding: 2em 12em 8em 6em;
+    margin-bottom: 1em;
+}
+.main-center{
+    background: #b65b80;
+    padding: 2em 11em 4em 6em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.aside-right{
+    background: #b65b80;
+    padding-left: 2em;
+    height: 350px;
+    text-align: center;   
+}
+section{
+    background: #db92af;
+    padding: 1em 0 4em 6em;
+    margin-bottom: 1em;
+}
+.container {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+}
